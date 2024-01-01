@@ -24,3 +24,18 @@ git checkout main // 기본 브랜치가 main인 경우
 git checkout -b 브랜치이름
 ex) git checkout -b apply-feedback
 ```
+
+# String Calculator
+## 요구사항 정리
+### 목록
+- [x] 쉼표 또는 콜론을 구분자로 가지는 문자열을 split 함
+- [x] '//' 와 '\n' 사이의 문자를 커스텀 구분자로 사용하여 split하기
+- [x] split한 문자열을 숫자로 변환해 덧셈하기
+- [x] 문자열 계산기에 숫자 이외의 값 또는 음수를 전달하는 경우 RuntimeException throw
+- [x] 빈문자열 또는 null 값을 입력할 경우 0반환
+- [x] 숫자 하나만 입력하면 숫자 반환
+- 
+### 유의 사항
+- indent 1단계
+- 메소드 크기를 10라인 내로
+- else 없이
